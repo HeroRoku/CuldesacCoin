@@ -29,3 +29,5 @@ export async function csrfFetch(url, options = {}) {
 export function restoreCSRF() {
   return csrfFetch('/api/csrf/restore');
 }
+
+// module.exports = csrfFetch;
